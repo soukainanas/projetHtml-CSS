@@ -1,0 +1,163 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: Arial Narrow,sans-serif;
+}
+body{
+	background-color: #d0ecf4  /*#D1F1FF*/  ;
+}
+h1{
+	color: #1B4F72 ;
+
+}
+nav{
+	
+	background-image:url(backg2.jpg) ;
+	
+	height: 80px;
+	width: 985px;
+	color: #FFFFFF;
+	
+}
+.heading{
+	font-size: 25px;
+	line-height: 40px;
+	padding: 0 3.1rem;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+nav div ul li a{
+	color: #FFFFFF;
+
+	margin-right: 1.0rem;
+	margin-left: 0.1rem;
+}
+
+.navActive  {
+	float: left;
+	line-height: 60px;
+	margin: 0.1rem;
+	padding: 0.1px 5px ;
+	text-align: center;
+	background-color:#8ACFFF ;
+	color: #FFF;
+	border-radius: 1px;
+/*	border-radius: 0px;
+	background-color: #8ACFFF;*/
+
+}
+.navActive:hover{
+	background-color: #36EBFE;
+	border-color:#FEF536 ;
+}
+.searchbar{
+	float: right;
+}
+.gobutton{
+	background-color: #8ACFFF;
+	color: #FFFFFF;
+	border: 0px solid #8ACFFF;
+}
+.inputtext{
+	border: 2px solid black;
+}
+
+div  ul li a{
+	color: #797D7F;
+	margin-left: 1.2rem;
+	font-size: 15px;
+	line-height: 60px;
+	
+
+}
+
+#nav {
+	background-color: white;
+	height:600px;
+	width: 170px;
+	margin-left: 0.5rem;
+	margin-top: 2.5rem;
+	font-weight: bold;
+	/*line-height: 65px;*/
+	
+}
+.sideBarTitle {
+	color: #E74C3C;	
+	margin-left: 0.9rem;	
+	margin-top: 1px;
+	font-size: 20px;	
+	height: 40px;	
+	
+
+	/*line-height: 110px;*/
+}
+#footer{
+	line-height: 35px;
+	background-color: #8ACFFF;
+	height:30px;
+	width: 1345px;
+	float: right;
+	text-align: right;
+	text-decoration: underline;
+	position: absolute;
+	top: 500px;
+	left: 179px;
+}
+div h1 {
+	float: right;
+	font-size: 20px;
+	height: 40px;
+	width: 1300px;
+	
+
+}
+#content{
+	position: absolute;
+    top: 180px;
+    left: 200px;
+    width:1300px;
+    height:1300px;
+    text-align: justify;
+    font-size: 13.5px;
+	/*text-align: justify;
+	float: right;
+	font-size: 13.5px;
+	height: 40px;
+	width: 1300px;
+	top: 50px;
+	/*
+	margin-left: 200px;*/
+}
+#content p{
+	margin-bottom: 1em;
+}
+#content a{
+	text-decoration: underline;
+}
+.sideBarTitle a.selected{
+	background-color: grey;
+	border-color: grey;
+}
+.sideBarTitle a:hover.selected{
+	background-color: #C8C8C8;
+	border-color: #C8C8C8;
+}
+/*#cross-browser{
+	text-align: justify;
+	float: right;
+	font-size: 11px;
+	height: 40px;
+	width: 1300px;
+	margin: 30px auto;
+}*/
+hr {
+	float: right;
+}
+
+
+
+
+
+

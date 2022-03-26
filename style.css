@@ -154,6 +154,14 @@ div h1 {
 	background-color: #C8C8C8;
 	border-color: #C8C8C8;
 }
+
+.selected:hover{
+	background-color:#E6E6E6 ;
+}
+
+.selected a:hover{
+	color: #33CEFF;
+}
 /*#cross-browser{
 	text-align: justify;
 	float: right;

@@ -9,7 +9,7 @@ body{
 	background-color: #d0ecf4  /*#D1F1FF*/  ;
 }
 h1{
-	color: #1B4F72 ;
+	color: #000066 ;
 
 }
 nav{
@@ -21,12 +21,13 @@ nav{
 	color: #FFFFFF;
 	
 }
+
 .heading{
-	font-size: 25px;
-	line-height: 40px;
+	font-size: 20px;
+	line-height: 19px;
 	padding: 0 3.1rem;
 	font-weight: bold;
-	letter-spacing: 4px;
+	letter-spacing: 5px;
 }
 nav div ul li a{
 	color: #FFFFFF;
@@ -37,11 +38,11 @@ nav div ul li a{
 
 .navActive  {
 	float: left;
-	line-height: 60px;
+	line-height: 37px;
 	margin: 0.1rem;
 	padding: 0.1px 5px ;
 	text-align: center;
-	background-color:#8ACFFF ;
+	background-color:#089cfc ;
 	color: #FFF;
 	border-radius: 1px;
 /*	border-radius: 0px;
@@ -49,23 +50,30 @@ nav div ul li a{
 
 }
 .navActive:hover{
-	background-color: #36EBFE;
-	border-color:#FEF536 ;
+	background-color: #38ccfc;
+	border-color:#ffba27 ;
 }
+.navList{
+	line-height: 40px;
+}
+/*.navList :hover{
+	background-color: #38ccfc;
+	border-color:#ffba27 ;
+}*/
 .searchbar{
 	float: right;
 }
 .gobutton{
-	background-color: #8ACFFF;
+	background-color: #38ccfc;
 	color: #FFFFFF;
-	border: 0px solid #8ACFFF;
+	border: 0px solid #38ccfc;
 }
 .inputtext{
-	border: 2px solid black;
+	border: 2.25px solid black;
 }
 
 div  ul li a{
-	color: #797D7F;
+	color: #838383;
 	margin-left: 1.2rem;
 	font-size: 15px;
 	line-height: 60px;
@@ -75,35 +83,34 @@ div  ul li a{
 
 #nav {
 	background-color: white;
-	height:600px;
-	width: 170px;
+	height:550px;
+	width: 150px;
 	margin-left: 0.5rem;
 	margin-top: 2.5rem;
 	font-weight: bold;
-	/*line-height: 65px;*/
 	
 }
 .sideBarTitle {
-	color: #E74C3C;	
-	margin-left: 0.9rem;	
-	margin-top: 1px;
-	font-size: 20px;	
-	height: 40px;	
+	color: #cc3300;	
+	margin-left: 8px;	
+	margin-top: 5px;
+	/*font-size: 17px;	
+	height: 8px;*/	
 	
 
 	/*line-height: 110px;*/
 }
 #footer{
 	line-height: 35px;
-	background-color: #8ACFFF;
+	background-color: #68ccfc;
 	height:30px;
-	width: 1345px;
+	width: 1365px;
 	float: right;
 	text-align: right;
 	text-decoration: underline;
 	position: absolute;
-	top: 500px;
-	left: 179px;
+	top: 400px;
+	left: 160px;
 }
 div h1 {
 	float: right;
@@ -115,12 +122,12 @@ div h1 {
 }
 #content{
 	position: absolute;
-    top: 180px;
-    left: 200px;
-    width:1300px;
+    top: 140px;
+    left: 180px;
+    /*width:1300px;*/
     height:1300px;
     text-align: justify;
-    font-size: 13.5px;
+    font-size: 13px;
 	/*text-align: justify;
 	float: right;
 	font-size: 13.5px;
@@ -132,9 +139,12 @@ div h1 {
 }
 #content p{
 	margin-bottom: 1em;
+	color: #000066 /*#333c63*/;
+	width:1270px;
 }
 #content a{
 	text-decoration: underline;
+	color: #089cfc;
 }
 .sideBarTitle a.selected{
 	background-color: grey;
@@ -154,6 +164,7 @@ div h1 {
 }*/
 hr {
 	float: right;
+
 }
 
 

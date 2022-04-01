@@ -16,45 +16,63 @@ nav{
 	
 	background-image:url(backg2.jpg) ;
 	
-	height: 80px;
-	width: 985px;
+	height: /*180% ;*/80px;
+	width: 55%/*985px*/;
 	color: #FFFFFF;
 	
 }
 
 .heading{
-	font-size: 20px;
-	line-height: 19px;
-	padding: 0 3.1rem;
+	font-size: 140%/*20px*/;
+	line-height: 200%/*19px*/;
+	padding: /*0 1%*/0 3.1rem;
 	font-weight: bold;
 	letter-spacing: 5px;
 }
 nav div ul li a{
 	color: #FFFFFF;
 
-	margin-right: 1.0rem;
-	margin-left: 0.1rem;
+	margin-right: 0.5%/*1.0rem*/;
+	margin-left: 0.5%/*0.1rem*/;
 }
 
 .navActive  {
 	float: left;
-	line-height: 37px;
-	margin: 0.1rem;
-	padding: 0.1px 5px ;
+	line-height: 90%/*0.1px*/;
+	margin: 1% 0.1rem;
+	padding: 0.1%  0.8%/*0.1px 5px*/ ;
 	text-align: center;
 	background-color:#089cfc ;
 	color: #FFF;
-	border-radius: 1px;
+	border-radius: 1%/*1px*/;
 /*	border-radius: 0px;
 	background-color: #8ACFFF;*/
-
+}
+.navActive a {
+	float: left;
+	line-height: 50%/*0.1px*/;
+	margin:1% 0.5rem;
+	padding: 0.1%  1%/*0.1px 5px*/ ;
+	text-align: center;
+	background-color:#089cfc ;
+	color: #FFF;
+	border-radius: 1%/*1px*/;
+	font-size:85% ;
+/*	border-radius: 0px;
+	background-color: #8ACFFF;*/
 }
 .navActive:hover{
 	background-color: #38ccfc;
 	border-color:#ffba27 ;
 }
+.navActive a:hover{
+	background-color: #38ccfc;
+	border-color:#ffba27 ;
+}
 .navList{
-	line-height: 40px;
+	margin: 0.5%/*0.1rem*/;
+	padding: 0.7%  0.7%/*0.1px 5px*/ ;
+	line-height:40px;
 }
 /*.navList :hover{
 	background-color: #38ccfc;
@@ -69,65 +87,76 @@ nav div ul li a{
 	border: 0px solid #38ccfc;
 }
 .inputtext{
-	border: 2.25px solid black;
+	border:2.25px solid black;
 }
-
-div  ul li a{
-	color: #838383;
-	margin-left: 1.2rem;
-	font-size: 15px;
-	line-height: 60px;
+/**/
+div  ul li .navActive {
 	
-
+	margin-left: 11%/*1.2rem*/;
+	font-size: 190%/*15px*/;
+}
+div ul li  a{
+	color:#838383 ;
+	margin-left: 11%/*1.2rem*/;
+	font-size: 90%/*15px*/;
 }
 
 #nav {
 	background-color: white;
-	height:550px;
-	width: 150px;
-	margin-left: 0.5rem;
-	margin-top: 2.5rem;
+	height:520px;
+	width: 9%/*150px*/;
+	margin-left:0.5% /*0.5rem*/;
+	margin-top: 2.5%/*2.5rem*/;
 	font-weight: bold;
 	
 }
 .sideBarTitle {
 	color: #cc3300;	
-	margin-left: 8px;	
-	margin-top: 5px;
+	margin-left:5% /*8px*/;	
+	margin-top: 0.1%/*5px*/;
 	/*font-size: 17px;	
 	height: 8px;*/	
-	
+	line-height: 280%/*60px*/;
 
 	/*line-height: 110px;*/
 }
+ul li a{
+	color: #cc3300;	
+	margin-left:5% /*8px*/;	
+	margin-top: 0.1%/*5px*/;
+	/*font-size: 17px;	
+	height: 8px;*/	
+	line-height: 330%/*60px*/;
+}
+
 #footer{
-	line-height: 35px;
+	line-height: 170%/*35px*/;
 	background-color: #68ccfc;
-	height:30px;
-	width: 1365px;
+	height:4%/*30px*/;
+	width: 90.5%/*1365px*/;
 	float: right;
 	text-align: right;
 	text-decoration: underline;
 	position: absolute;
-	top: 400px;
-	left: 160px;
+	top:56% /*400px*/;
+	left:9.5% /*160px*/;
 }
 div h1 {
 	float: right;
-	font-size: 20px;
-	height: 40px;
-	width: 1300px;
+	font-size: 175%/*20px*/;
+	height: 2.25%/*40px*/;
+	width: 100%/*1300px*/;
 	
 
 }
 #content{
 	position: absolute;
-    top: 140px;
-    left: 180px;
+    top: 20%/*140px*/;
+    left: 11.5%/*180px*/;
     /*width:1300px;*/
-    height:1300px;
+    height:220%/*1300px*/;
     text-align: justify;
-    font-size: 13px;
+    font-size:85% /*13px*/;
 	/*text-align: justify;
 	float: right;
 	font-size: 13.5px;
@@ -138,9 +167,9 @@ div h1 {
 	margin-left: 200px;*/
 }
 #content p{
-	margin-bottom: 1em;
+	margin-bottom: 1%/*1em*/;
 	color: #000066 /*#333c63*/;
-	width:1270px;
+	width:97%/*1270px*/;
 }
 #content a{
 	text-decoration: underline;
@@ -154,7 +183,6 @@ div h1 {
 	background-color: #C8C8C8;
 	border-color: #C8C8C8;
 }
-
 .selected:hover{
 	background-color:#E6E6E6 ;
 }
@@ -171,7 +199,8 @@ div h1 {
 	margin: 30px auto;
 }*/
 hr {
-	float: right;
+	float: LEFT;
+	top: 80%;
 
 }
 

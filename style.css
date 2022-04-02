@@ -13,13 +13,13 @@ h1{
 
 }
 nav{
-	
+
 	background-image:url(backg2.jpg) ;
-	
+
 	height: /*180% ;*/80px;
 	width: 55%/*985px*/;
 	color: #FFFFFF;
-	
+
 }
 
 .heading{
@@ -54,6 +54,7 @@ nav div ul li a{
 	margin:1% 0.5rem;
 	padding: 0.1%  1%/*0.1px 5px*/ ;
 	text-align: center;
+	justify-content: center;
 	background-color:#089cfc ;
 	color: #FFF;
 	border-radius: 1%/*1px*/;
@@ -91,7 +92,7 @@ nav div ul li a{
 }
 /**/
 div  ul li .navActive {
-	
+
 	margin-left: 11%/*1.2rem*/;
 	font-size: 190%/*15px*/;
 }
@@ -108,24 +109,24 @@ div ul li  a{
 	margin-left:0.5% /*0.5rem*/;
 	margin-top: 2.5%/*2.5rem*/;
 	font-weight: bold;
-	
+
 }
 .sideBarTitle {
-	color: #cc3300;	
-	margin-left:5% /*8px*/;	
+	color: #cc3300;
+	margin-left:5% /*8px*/;
 	margin-top: 0.1%/*5px*/;
-	/*font-size: 17px;	
-	height: 8px;*/	
+	/*font-size: 17px;
+	height: 8px;*/
 	line-height: 280%/*60px*/;
 
 	/*line-height: 110px;*/
 }
 ul li a{
-	color: #cc3300;	
-	margin-left:5% /*8px*/;	
+	color: #cc3300;
+	margin-left:5% /*8px*/;
 	margin-top: 0.1%/*5px*/;
-	/*font-size: 17px;	
-	height: 8px;*/	
+	/*font-size: 17px;
+	height: 8px;*/
 	line-height: 330%/*60px*/;
 }
 
@@ -138,7 +139,7 @@ ul li a{
 	text-align: right;
 	text-decoration: underline;
 	position: absolute;
-	top:56% /*400px*/;
+	top:73% /*400px*/;
 	left:9.5% /*160px*/;
 }
 div h1 {
@@ -146,7 +147,7 @@ div h1 {
 	font-size: 175%/*20px*/;
 	height: 2.25%/*40px*/;
 	width: 100%/*1300px*/;
-	
+
 
 }
 #content{
@@ -190,22 +191,52 @@ div h1 {
 .selected a:hover{
 	color: #33CEFF;
 }
-/*#cross-browser{
-	text-align: justify;
-	float: right;
-	font-size: 11px;
-	height: 40px;
-	width: 1300px;
-	margin: 30px auto;
-}*/
 hr {
 	float: LEFT;
 	top: 80%;
 
 }
 
+/*Exercice 2*/
+@media screen and (min-width: 400px) and (max-width: 600px){
+	#nav  {
+	width: 100%;
+	/*float: left;*/
+	height: auto;
+	text-align: center;
+	position: relative;
+	margin-top: 20%;
+	}
 
+	#nav ul{
+		justify-content: center;
+	}
+	#nav ul li a{
+		text-align: center;
+		float: none;
+	}
+	#footer{
+		margin-top: 145%;
+	}
+	#content{
+		margin-top: 125%;
+	}
+}
 
-
-
-
+@media screen and (min-width: 600px) and (max-width: 900px){
+	#nav{
+		width: 20%;
+		text-align: center;
+	}
+	#footer{
+		top:90%;
+		left: 20.5%;
+	}
+	#content {
+		margin-left: 0;
+		width: 80%;
+		left:25%;
+	}
+	/*.col-s-1 {width: 8.33%;} .col-s-2 {width: 16.66%;} .col-s-3 {width: 25%;} .col-s-4 {width: 33.33%;} .col-s-5 {width: 41.66%;} .col-s-6 {width: 50%;} .col-s-7 {width: 58.33%;} .col-s-8 {width: 66.66%;} .col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;} .col-s-11 {width: 91.66%;} .col-s-12 {width: 100%;}
+*/}

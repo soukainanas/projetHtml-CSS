@@ -205,7 +205,7 @@ hr {
 	height: auto;
 	text-align: center;
 	position: relative;
-	margin-top: 20%;
+	margin-top: 13%;
 	}
 
 	#nav ul{
@@ -216,10 +216,16 @@ hr {
 		float: none;
 	}
 	#footer{
-		margin-top: 145%;
+		margin-top: 135%;
+		left: 0%;
+		width:100%;
 	}
 	#content{
-		margin-top: 125%;
+		margin-top: 115%;
+		left: 4%;
+	}
+	.searchbar{
+		margin-top:181%;
 	}
 }
 
@@ -231,12 +237,15 @@ hr {
 	#footer{
 		top:90%;
 		left: 20.5%;
+		width: 79%;
+	}
+	hr{
+		width: 99%;
 	}
 	#content {
 		margin-left: 0;
-		width: 80%;
+		width: 75%;
 		left:25%;
 	}
-	/*.col-s-1 {width: 8.33%;} .col-s-2 {width: 16.66%;} .col-s-3 {width: 25%;} .col-s-4 {width: 33.33%;} .col-s-5 {width: 41.66%;} .col-s-6 {width: 50%;} .col-s-7 {width: 58.33%;} .col-s-8 {width: 66.66%;} .col-s-9 {width: 75%;}
-	.col-s-10 {width: 83.33%;} .col-s-11 {width: 91.66%;} .col-s-12 {width: 100%;}
-*/}
+
+}

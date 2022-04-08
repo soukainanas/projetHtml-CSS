@@ -13,13 +13,13 @@ h1{
 
 }
 nav{
-
+	
 	background-image:url(backg2.jpg) ;
-
-	height: /*180% ;*/80px;
-	width: 55%/*985px*/;
+	
+	height: /*180% ;*/83px;
+	width: 63%/*985px*/;
 	color: #FFFFFF;
-
+	
 }
 
 .heading{
@@ -28,8 +28,10 @@ nav{
 	padding: /*0 1%*/0 3.1rem;
 	font-weight: bold;
 	letter-spacing: 5px;
+
 }
-nav div ul li a{
+
+nav li {
 	color: #FFFFFF;
 
 	margin-right: 0.5%/*1.0rem*/;
@@ -37,48 +39,43 @@ nav div ul li a{
 }
 
 .navActive  {
-	float: left;
-	line-height: 90%/*0.1px*/;
-	margin: 1% 0.1rem;
-	padding: 0.1%  0.8%/*0.1px 5px*/ ;
-	text-align: center;
+	margin: 0%;
+	padding: 0.5% ;
 	background-color:#089cfc ;
 	color: #FFF;
-	border-radius: 1%/*1px*/;
-/*	border-radius: 0px;
-	background-color: #8ACFFF;*/
+	border-radius: 1%;
+ 	
 }
 .navActive a {
-	float: left;
-	line-height: 50%/*0.1px*/;
-	margin:1% 0.5rem;
-	padding: 0.1%  1%/*0.1px 5px*/ ;
+
+	margin:0.1%;
+	padding:0% ;
 	text-align: center;
-	justify-content: center;
 	background-color:#089cfc ;
 	color: #FFF;
-	border-radius: 1%/*1px*/;
-	font-size:85% ;
-/*	border-radius: 0px;
-	background-color: #8ACFFF;*/
+	border-radius: 1%;
+	font-size:95% ;
+
 }
-.navActive:hover{
-	background-color: #38ccfc;
-	border-color:#ffba27 ;
-}
-.navActive a:hover{
+
+.navActive :hover{
 	background-color: #38ccfc;
 	border-color:#ffba27 ;
 }
 .navList{
-	margin: 0.5%/*0.1rem*/;
-	padding: 0.7%  0.7%/*0.1px 5px*/ ;
-	line-height:40px;
+	margin: 0%;
+	padding: 0.1%;
+	line-height:10px;
+	text-align: center;
 }
-/*.navList :hover{
+.navList li{
+	display: inline;
+}
+.navList :hover{
 	background-color: #38ccfc;
 	border-color:#ffba27 ;
-}*/
+}
+
 .searchbar{
 	float: right;
 }
@@ -90,9 +87,9 @@ nav div ul li a{
 .inputtext{
 	border:2.25px solid black;
 }
-/**/
-div  ul li .navActive {
 
+div  ul li .navActive {
+	
 	margin-left: 11%/*1.2rem*/;
 	font-size: 190%/*15px*/;
 }
@@ -109,24 +106,25 @@ div ul li  a{
 	margin-left:0.5% /*0.5rem*/;
 	margin-top: 2.5%/*2.5rem*/;
 	font-weight: bold;
-
+	border-right: 2px solid #b2b2b2;
+	
 }
 .sideBarTitle {
-	color: #cc3300;
-	margin-left:5% /*8px*/;
+	color: #cc3300;	
+	margin-left:5% /*8px*/;	
 	margin-top: 0.1%/*5px*/;
-	/*font-size: 17px;
-	height: 8px;*/
+	/*font-size: 17px;	
+	height: 8px;*/	
 	line-height: 280%/*60px*/;
 
-	/*line-height: 110px;*/
+
 }
 ul li a{
-	color: #cc3300;
-	margin-left:5% /*8px*/;
+	color: #cc3300;	
+	margin-left:5% /*8px*/;	
 	margin-top: 0.1%/*5px*/;
-	/*font-size: 17px;
-	height: 8px;*/
+	/*font-size: 17px;	
+	height: 8px;*/	
 	line-height: 330%/*60px*/;
 }
 
@@ -139,7 +137,7 @@ ul li a{
 	text-align: right;
 	text-decoration: underline;
 	position: absolute;
-	top:73% /*400px*/;
+	top:56% /*400px*/;
 	left:9.5% /*160px*/;
 }
 div h1 {
@@ -147,7 +145,7 @@ div h1 {
 	font-size: 175%/*20px*/;
 	height: 2.25%/*40px*/;
 	width: 100%/*1300px*/;
-
+	
 
 }
 #content{
@@ -157,20 +155,13 @@ div h1 {
     /*width:1300px;*/
     height:220%/*1300px*/;
     text-align: justify;
-    font-size:85% /*13px*/;
-	/*text-align: justify;
-	float: right;
-	font-size: 13.5px;
-	height: 40px;
-	width: 1300px;
-	top: 50px;
-	/*
-	margin-left: 200px;*/
+    font-size:84% /*13px*/;
+
 }
 #content p{
 	margin-bottom: 1%/*1em*/;
 	color: #000066 /*#333c63*/;
-	width:97%/*1270px*/;
+	width:99%/*1270px*/;
 }
 #content a{
 	text-decoration: underline;
@@ -191,10 +182,10 @@ div h1 {
 .selected a:hover{
 	color: #33CEFF;
 }
-hr {
-	float: LEFT;
-	top: 80%;
 
+
+hr {
+	float: right;
 }
 
 /*Exercice 2*/
@@ -205,7 +196,7 @@ hr {
 	height: auto;
 	text-align: center;
 	position: relative;
-	margin-top: 13%;
+	margin-top: 1%;
 	}
 
 	#nav ul{
@@ -216,17 +207,22 @@ hr {
 		float: none;
 	}
 	#footer{
-		margin-top: 135%;
+		margin-top: 111%;
 		left: 0%;
 		width:100%;
 	}
 	#content{
-		margin-top: 115%;
+		margin-top: 88%;
 		left: 4%;
 	}
 	.searchbar{
-		margin-top:181%;
+		margin-top:161%;
 	}
+	nav{
+		height: 80px;
+		width: 100%;
+	}
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px){
@@ -235,7 +231,7 @@ hr {
 		text-align: center;
 	}
 	#footer{
-		top:90%;
+		top:63%;
 		left: 20.5%;
 		width: 79%;
 	}
@@ -247,5 +243,10 @@ hr {
 		width: 75%;
 		left:25%;
 	}
+	nav{
+		height: 80px;
+		width: 100%;
+	}
 
 }
+

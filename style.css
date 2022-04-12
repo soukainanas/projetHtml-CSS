@@ -63,11 +63,10 @@ nav li {
 	background-color: #38ccfc;
 	border-color:#ffba27 ;
 }
-.navList{
-	margin: 0%;
+.navList {
+	margin-left: 2%; /* todo */
 	padding: 0.1%;
 	line-height:10px;
-	text-align: center;
 }
 .navList li{
 	display: inline;
